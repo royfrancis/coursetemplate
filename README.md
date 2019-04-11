@@ -14,7 +14,7 @@ This package can be installed from R/RStudio as follows:
 install.packages("devtools")
 
 # install this package from GitHub
-devtools::install_github("NBISweden/coursetemplate")
+devtools::install_github("royfrancis/coursetemplate")
 ```
 
 Supporting packages should install automatically, otherwise install manually:
