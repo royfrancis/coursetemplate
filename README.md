@@ -1,5 +1,5 @@
 
-<img src="docs/assets/logo.svg" align="right" width="96" height="96">
+<img src="docs/assets/logo.svg" align="right" width="120" height="120">
 
 # coursetemplate v1.0.0
 
@@ -68,7 +68,7 @@ rmarkdown::render("analysis.Rmd")
 
 Note the **assets** directory or any other supporting directories such as **analysis_files** must NOT be deleted. They must be provided when sharing the HTML document. The final HTML document is NOT standalone. It is dependent on the child directories. If you have your own content (images etc) used in the RMarkdown document, add them to a directory named **analysis_assets**.
 
-To view example of rendered HTML content, go [here](https://NBISweden.github.io/coursetemplate/).
+To view example of rendered HTML content, go [here](https://royfrancis.github.io/coursetemplate/).
 
 ## Contact
 
