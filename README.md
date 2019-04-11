@@ -38,6 +38,8 @@ install.packages(c("dplyr", "tidyr", "stringr", "kableExtra",
 "networkD3", "leaflet", "crosstalk"))
 ```
 
+![](install.gif)
+
 ## Presentation Template  
 
 The presentation template for use can be accessed from within RStudio as shown below. Use this to prepare your own presentation slides.
