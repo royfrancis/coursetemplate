@@ -1,0 +1,4 @@
+name: NBIS Lab Template
+description: RMarkdown lab template for NBIS courses
+author: NBIS
+create_dir: true

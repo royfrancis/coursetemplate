@@ -1,0 +1,20 @@
+Package: coursetemplate
+Type: Package
+Title: Presentation and Lab RMarkdown templates for NBIS courses
+Version: 1.0.0
+Author: NBIS
+Maintainer: The package maintainer <roy.francis@nbis.se>
+Description: Course and presentation RMarkdown templates for NBIS courses.
+URL: https://github.com/royfrancis/coursetemplate
+Depends:
+    R(>= 3.5.0),
+    bookdown,
+    captioner,
+    markdown,
+    knitr,
+    rmarkdown,
+    xaringan
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

@@ -1,0 +1,78 @@
+---
+title: "Topic"
+subtitle: "Course title"
+author: "`r paste0('<b>Author</b> | ',format(Sys.time(), '%d-%b-%Y'))`"
+institute: NBIS, SciLifeLab
+keywords: bioinformatics, course, scilifelab, nbis
+output:
+  xaringan::moon_reader:
+    encoding: 'UTF-8'
+    self_contained: false
+    chakra: 'assets/remark-latest.min.js'
+    css: 'assets/presentation.css'
+    lib_dir: libs
+    nature:
+      ratio: '4:3'
+      highlightLanguage: r
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%/%total%"
+---
+exclude: true
+count: false
+
+```{r,echo=FALSE,child="assets/header-presentation.Rmd"}
+```
+
+<!-- ------------ Only edit title, subtitle & author above this ------------ -->
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+# load the packages you need
+#library(dplyr)
+#library(tidyr)
+#library(stringr)
+#library(ggplot2)
+```
+
+---
+name: content
+class: spaced
+
+## Contents
+
+* [Topic 1](#topic1)
+* [Topic 2](#topic2)
+
+---
+name: topic1
+
+## Topic 1
+
+* This is an RMarkdown presentation.
+
+---
+name: topic2
+
+## Topic 2
+
+Add more content here.
+
+<!-- --------------------- Do not edit this and below --------------------- -->
+
+---
+name: end_slide
+class: end-slide, middle
+count: false
+
+# Thank you. Questions?
+
+```{r,echo=FALSE,child="assets/footer-presentation.Rmd"}
+```
+
+```{r,include=FALSE,eval=FALSE}
+# manually run this to render this document to HTML
+rmarkdown::render("presentation_demo.Rmd")
+# manually run this to convert HTML to PDF
+#pagedown::chrome_print("presentation_demo.html",output="presentation_demo.pdf")
+```
